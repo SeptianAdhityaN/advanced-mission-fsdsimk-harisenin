@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/css/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Ticket KA</title>
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <header class="w-full">
+      <nav
+        class="w-full flex justify-between items-center bg-white py-[18px] px-[120px] border-b-[1px] border-[#F1F1F1] fixed top-0"
+      >
+        <div class="flex gap-1">
+          <h2 class="text-3xl font-semibold">TIKET</h2>
+          <img class="w-full" src="./public/img/logo.png" alt="" />
+          <h2 class="text-3xl font-bold text-primary">KA</h2>
+        </div>
+        <div class="flex items-center justify-center gap-[36px]">
+          <a
+            class="text-primary hover:text-third duration-500 font-semibold"
+            href="#"
+            >Pesan Tiket</a
+          >
+          <a
+            class="text-primary hover:text-third duration-500 font-semibold"
+            href="#"
+            >Tiketku</a
+          >
+          <a href=""><img src="./public/img/profile.png" alt="" /></a>
+        </div>
+      </nav>
+    </header>
+    <!-- NAVBAR END -->
+
+    <!-- HERO SECTION START -->
+    <section class="w-full h-full flex justify-between">
+      <img
+        class="max-w-[1050px] h-[946px] w-full"
+        src="./public/img/main-bg.png"
+        alt=""
+      />
+      <div class="w-full h-screen flex items-center flex-col mt-[10%] mx-[5%]">
+        <div class="flex flex-col gap-3 justify-center items-center mb-8">
+          <div class="flex gap-1">
+            <h2 class="text-3xl font-semibold">TIKET</h2>
+            <img class="" src="./public/img/logo.png" alt="" />
+            <h2 class="text-3xl font-bold text-primary">KA</h2>
+          </div>
+          <div class="flex flex-col items-center text-center">
+            <h3 class="font-semibold text-xl mb-1">Pesan Tiket Kereta Online</h3>
+            <p class="text-sm">
+              Cari, Pesan, dan Nikmati Tiket Kereta dengan Mudah dan Cepat
+            </p>
+          </div>
+        </div>
+        <form class="w-full" action="">
+          <div class="w-full flex items-center border rounded-md mb-3">
+              <label class="bg-[#F1F1F1] p-2 rounded-l-md items-center justify-center flex" for="stasiun_awal"><ion-icon class="text-2xl" name="train"></ion-icon></label>
+              <div class="flex justify-between w-full items-center">
+                <p class="ml-2">Stasiun Awal</p>
+                <ion-icon class="mr-4" name="chevron-down-outline"></ion-icon>
+              </div>
+          </div>
+          <div class="w-full flex items-center border rounded-md mb-3">
+              <label class="bg-[#F1F1F1] p-2 rounded-l-md items-center justify-center flex" for="stasiun_akhir"><ion-icon class="text-2xl" name="train"></ion-icon></label>
+              <div class="flex justify-between w-full items-center">
+                <p class="ml-2">Stasiun Akhir</p>
+                <ion-icon class="mr-4" name="chevron-down-outline"></ion-icon>
+              </div>
+          </div>
+          <div class="w-full flex items-center border rounded-md mb-3">
+              <label class="bg-[#F1F1F1] p-2 rounded-l-md items-center justify-center flex" for="tanggal_keberangkatan"><ion-icon class="text-2xl" name="calendar-number"></ion-icon></label>
+              <div class="flex justify-between w-full items-center">
+                <p class="ml-2">Tanggal Keberangkatan</p>
+                <ion-icon class="mr-4" name="chevron-down-outline"></ion-icon>
+              </div>
+          </div>
+          <div class="w-full flex items-center border rounded-md mb-3">
+              <label class="bg-[#F1F1F1] p-2 rounded-l-md items-center justify-center flex" for="jumlah_penumpang"><ion-icon class="text-2xl" name="people"></ion-icon></label>
+              <div class="flex justify-between w-full items-center">
+                <p class="ml-2">Jumlah Penumpang</p>
+                <ion-icon class="mr-4" name="chevron-down-outline"></ion-icon>
+              </div>
+          </div>
+        </form>
+        <button
+          class="bg-primary text-white rounded-md font-semibold w-full py-[8px] my-2"
+        >
+          Cari kereta
+        </button>
+        <button class="bg-third rounded-md font-semibold w-full py-[8px]">
+          Cek Kode Booking
+        </button>
+
+        <footer class="h-full">
+          <p
+            class="min-w-max text-center text-sm absolute bottom-0 translate-x-[-50%] translate-y-[175px]"
+          >
+            © 2023 PT. Tiket Kereta Api. All Rights Reserved
+          </p>
+        </footer>
+      </div>
+    </section>
+    <!-- HERO SECTION END -->
+  </body>
+</html>
