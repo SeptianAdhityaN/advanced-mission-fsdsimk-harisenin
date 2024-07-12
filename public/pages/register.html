@@ -26,19 +26,7 @@
           <img class="w-full" src="../img/logo.png" alt="" />
           <h2 class="md:text-3xl text-xl font-bold text-primary">KA</h2>
         </div>
-        <ion-icon class="md:hidden flex text-2xl" name="menu-outline"></ion-icon>
         <div class="hidden md:flex items-center justify-center">
-          <a
-            class="text-primary duration-500 font-semibold ml-[54px]"
-            href="#"
-            >Pesan Tiket</a
-          >
-          <a
-            class="text-primary duration-500 font-semibold ml-[54px]"
-            href="#"
-            >Tiketku</a
-          >
-          <a class="ml-[54px] mr-[20px]" href=""><img src="../img/profile.png" alt="" /></a>
         </div>
       </nav>
     </header>
@@ -54,56 +42,49 @@
         />
       </div>
       <div class="w-full lg:max-w-[30%] md:max-w-[40%] h-full flex items-center justify-center flex-col md:mt-[10%] mt-[20%] md:mx-[2%] mx-[5%]">
-        <div class="flex flex-col gap-3 justify-center items-center mb-8">
+        <div class="flex flex-col gap-3 justify-center items-center mb-8 w-full">
           <div class="flex gap-1">
             <h2 class="text-3xl font-semibold">TIKET</h2>
             <img class="" src="../img/logo.png" alt="" />
             <h2 class="text-3xl font-bold text-primary">KA</h2>
           </div>
-          <div class="flex flex-col items-center text-center">
-            <h3 class="font-semibold text-xl mb-1">Pesan Tiket Kereta Online</h3>
+          <div class="flex flex-col w-full">
+            <h3 class="font-bold text-xl mb-1">Register</h3>
             <p class="text-sm">
-              Cari, Pesan, dan Nikmati Tiket Kereta dengan Mudah dan Cepat
+              Silahkan lengkapi data berikut
             </p>
           </div>
         </div>
         <form class="w-full" action="">
           <div class="w-full flex items-center border rounded-md mb-3">
-              <label class="bg-[#F1F1F1] p-2 rounded-l-md items-center justify-center flex" for="stasiun_awal"><ion-icon class="text-2xl" name="train"></ion-icon></label>
+              <label class="bg-[#F1F1F1] p-2 rounded-l-md items-center justify-center flex" for="email"><ion-icon class="text-2xl" name="person"></ion-icon></label>
               <div class="flex justify-between w-full items-center">
-                <p class="ml-2 text-sm">Stasiun Awal</p>
-                <ion-icon class="mr-4" name="chevron-down-outline"></ion-icon>
+                <input class="w-full ml-2 outline-none border-none" type="email" id="email" name="email" class="ml-2 text-sm" placeholder="Username" required></input>
               </div>
           </div>
           <div class="w-full flex items-center border rounded-md mb-3">
-              <label class="bg-[#F1F1F1] p-2 rounded-l-md items-center justify-center flex" for="stasiun_akhir"><ion-icon class="text-2xl" name="train"></ion-icon></label>
+              <label class="bg-[#F1F1F1] p-2 rounded-l-md items-center justify-center flex" for="email"><ion-icon class="text-2xl" name="mail"></ion-icon></label>
               <div class="flex justify-between w-full items-center">
-                <p class="ml-2 text-sm">Stasiun Akhir</p>
-                <ion-icon class="mr-4" name="chevron-down-outline"></ion-icon>
+                <input class="w-full ml-2 outline-none border-none" type="email" id="email" name="email" class="ml-2 text-sm" placeholder="Email" required></input>
               </div>
           </div>
           <div class="w-full flex items-center border rounded-md mb-3">
-              <label class="bg-[#F1F1F1] p-2 rounded-l-md items-center justify-center flex" for="tanggal_keberangkatan"><ion-icon class="text-2xl" name="calendar-number"></ion-icon></label>
+              <label class="bg-[#F1F1F1] p-2 rounded-l-md items-center justify-center flex" for="password"><ion-icon class="text-2xl" name="key"></ion-icon></label>
               <div class="flex justify-between w-full items-center">
-                <input type="date" class="ml-2 text-sm w-full mr-4 border-none outline-none" id="tanggal_keberangkatan" name="tanggal_keberangkatan"></input>
+                <input class="w-full ml-2 outline-none border-none" type="password" id="password" name="password" class="ml-2 text-sm" placeholder="Password" required></input>
               </div>
           </div>
           <div class="w-full flex items-center border rounded-md mb-3">
-              <label class="bg-[#F1F1F1] p-2 rounded-l-md items-center justify-center flex" for="jumlah_penumpang"><ion-icon class="text-2xl" name="people"></ion-icon></label>
+              <label class="bg-[#F1F1F1] p-2 rounded-l-md items-center justify-center flex" for="password"><ion-icon class="text-2xl" name="card"></ion-icon></label>
               <div class="flex justify-between w-full items-center">
-                <p class="ml-2 text-sm">Jumlah Penumpang</p>
-                <ion-icon class="mr-4" name="chevron-down-outline"></ion-icon>
+                <input class="w-full ml-2 outline-none border-none" type="password" id="password" name="password" class="ml-2 text-sm" placeholder="Konfirmasi password" required></input>
               </div>
           </div>
         </form>
-        <button
-          class="bg-primary text-white rounded-md font-semibold w-full py-[8px] my-2"
-        >
-          Cari kereta
-        </button>
-        <button class="bg-third rounded-md font-semibold w-full py-[8px]">
-          Cek Kode Booking
-        </button>
+        <a class="bg-primary text-white rounded-md font-semibold w-full py-[8px] my-2 mb-4 text-center" href="login.html"><button>
+          Daftar
+        </button></a>
+        <p class="text-sm">Sudah punya akun? <a href="login.html">Masuk</a></p>
 
         <footer class="h-full w-full p-6 flex justify-center items-center md:mt-[75%] mt-[50%]">
           <p
